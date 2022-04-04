@@ -1,0 +1,3 @@
+gcc -ansi -c queue.c -o queue.o
+gcc -ansi -c runSimulations.c -o runSimulations.o
+gcc runSimulations.o queue.o -lgsl -lgslcblas -o runSimulations
